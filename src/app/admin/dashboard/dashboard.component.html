@@ -1,0 +1,343 @@
+<section class="dashboard_header">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+      </div>
+    </div>
+  </div>
+</section>
+<mat-card>
+  <mat-card-content>Simple card</mat-card-content>
+</mat-card>
+<section class="dashboard_body">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 mt-2">
+        <h2>Attendance</h2>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <mat-card class="card_size ">
+          <mat-card-content class="card-body">
+            <h4>Things to do</h4>
+            <div class="card_Attendance">
+              <i class="fa fa-check-circle fa-5x" aria-hidden="true"></i>
+            </div>
+            <h5 class="text-center">All Done</h5>
+          </mat-card-content>
+        </mat-card>
+      </div>
+      <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex">
+              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              &nbsp;
+              <h3 class="mb-2">21 June 2023 | Wed
+
+              </h3> <input type="date">
+              &nbsp;
+              <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              <a routerLink="/dashboard/detailsAttedance">Detailed Attendance View</a><i class="fa fa-chevron-right"
+                aria-hidden="true"></i>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-12 mt-2">
+        <h2>Payments</h2>
+      </div>
+      <div class="col-xl-6">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex">
+              <div>
+                <h4 class="font-weight-bold">Staff Payment Summary</h4>
+              </div>
+              <div class="ml-5"><a routerLink="/dashboard/overall">view Details</a></div>
+            </div>
+            <table class="table table-striped">
+
+              <tbody>
+                <tr>
+                  <td>Salary (Actual)</td>
+                  <td>(-) ₹ 3,000</td>
+                </tr>
+                <tr>
+                  <td>Jun Payment</td>
+                  <td>₹ 51,000</td>
+                </tr>
+                <tr>
+                  <td>Adjustments</td>
+                  <td>₹ 0</td>
+                </tr>
+                <tr>
+                  <td>Net Pay Amount</td>
+                  <td>₹ 48,000</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-xl-6">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex">
+              <div>
+                <h4 class="font-weight-bold">Summary of Loan</h4>
+              </div>
+              <div class="ml-5"><a routerLink="/dashboard/loan-details">view Details</a> | <a href="">
+                  Download Report</a></div>
+            </div>
+            <table class="table table-striped">
+
+              <tbody>
+                <tr>
+                  <td>Loan Amount</td>
+                  <td>₹ 0</td>
+                </tr>
+                <tr>
+                  <td>Received</td>
+                  <td>₹ 0</td>
+                </tr>
+                <tr>
+                  <td>Pending Loan</td>
+                  <td>₹ 0</td>
+                </tr>
+                <tr>
+                  <td>Pending Loan</td>
+                  <td>₹0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-xl-6 mt-3">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="font-weight-bold">Payment Log</h4>
+              <a href="">Download Report</a>
+            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr class="d-flex justify-content-between">
+                  <th>Date</th>
+                  <th>Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr></tr>
+              </tbody>
+            </table>
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-xl-6 mt-3">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="font-weight-bold">Statutory Expenses</h4>
+            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Staff</th>
+                  <th>Employer</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>PF</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                  <td>ESI</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                  <td>LWF</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                </tr>
+                <tr>
+                  <td>Profession Tax</td>
+                  <td>-</td>
+                  <td>-</td>
+                  <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-xl-6 mt-3">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="font-weight-bold">Allowance/Deduction/Bonus</h4>
+            </div>
+            <div>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>To be paid</th>
+                    <th>paid</th>
+                    <th>Action</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Allowance</td>
+                    <td>$0</td>
+                    <td>$0</td>
+                    <td>
+                      <a href="">Add Allowance</a>
+                    </td>
+                    <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Bonus</td>
+                    <td>$0</td>
+                    <td>$0</td>
+                    <td>
+                      <a href="">Add Allowance</a>
+                    </td>
+                    <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                  </tr>
+                  <tr>
+                    <td>Deduction</td>
+                    <td>$0</td>
+                    <td>$0</td>
+                    <td>
+                      <a href="">Add Allowance</a>
+                    </td>
+                    <td><i class="fa fa-share-square-o" aria-hidden="true"></i></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+      <div class="col-xl-6 mt-3">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h4 class="font-weight-bold">Work Report</h4>
+              <a href="">Download Report</a>
+            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Day as Date</th>
+                  <th>Quantity</th>
+                  <th> Amount</th>
+                </tr>
+              </thead>
+
+              <tr class="text-center">
+                <p>No data found</p>
+              </tr>
+            </table>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-12 my-3 d-flex align-items-center">
+        <h2 class="m-0">Attendance Muster Roll Reports</h2>
+        <div class="ml-5">
+          <button mat-raised-button type="button">Expand All</button>
+        </div>
+        <div class="ml-5">
+          <mat-form-field >
+            <select matNativeControl>
+              <option value="" selected>Download</option>
+              <option value="volvo">Downlaod PDF</option>
+              <option value="saab" disabled>Downlaod Excel</option>
+            </select>
+          </mat-form-field>
+        </div>
+        <div class="ml-5">
+          <mat-form-field >
+            <select matNativeControl>
+              <option value="" selected>June</option>
+              <option value="volvo">June </option>
+            </select>
+          </mat-form-field>
+        </div>
+      </div>
+
+      <div class="col-xl-12">
+        <mat-card class="card_size ">
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+              <h3 class="font-weight-bold">Monthly Regular</h3>
+            </div>
+            <div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Staff Name</th>
+                    <th>Present</th>
+                    <th> Absent</th>
+                    <th> Half Day</th>
+                    <th> Absent</th>
+                    <th> Paid Leave</th>
+                    <th> Unmarked</th>
+                    <th> Overtime</th>
+                    <th> Fine</th>
+                    <th> Total Attendance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>vatsal</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>Days</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>WH</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,43 @@
+<div class="sidebar-inner">
+  <div class="sidebar-user">
+    <span class="sidebar-use-name">Brian Hughes</span>
+  </div>
+  <ul class="sidebar-menu">
+    <li>
+      <a (click)="addExpandClass('0')" routerLink="/dashboard" routerLinkActive="active">
+        <i class="fa fa-pie-chart" aria-hidden="true"></i><span class="icons">Dashboard</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('profile')" routerLink="/staff" routerLinkActive="active">
+        <i class="fa fa-users" aria-hidden="true"></i><span class="icons">staff</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/attendance" routerLinkActive="active">
+        <i class="fa fa-id-badge" aria-hidden="true"></i><span class="icons">Attendence</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/report" routerLinkActive="active">
+        <i class="fa fa-address-book-o" aria-hidden="true"></i><span class="icons">Reports</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/payrolls" routerLinkActive="active">
+        <i class="fa fa-credit-card" aria-hidden="true"></i><span class="icons">Payroll</span></a>
+    </li>
+    <li>
+      <a (click)="addExpandClass('0')" routerLink="/cashbook" routerLinkActive="active">
+        <i class="fa fa-money" aria-hidden="true"></i><span class="icons">Cash Book</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/onlinepayment" routerLinkActive="active">
+        <i class="fa fa-usd" aria-hidden="true"></i><span class="icons">Online Payment</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/help" routerLinkActive="active">
+        <i class="fa fa-comment" aria-hidden="true"></i><span class="icons">Help</span></a>
+    </li>
+    <li class="submenu">
+      <a (click)="addExpandClass('0')" routerLink="/setting" routerLinkActive="active">
+        <i class="fa fa-cog" aria-hidden="true"></i><span class="icons">Settings</span></a>
+    </li>
+  </ul>
+</div>

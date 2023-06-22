@@ -1,0 +1,31 @@
+.body_text{
+  font-weight: 700;
+  font-size: 32px;
+}
+.card_text{
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.body_text_form{
+  color: #858585;
+}
+.Continue{
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #0066fd;
+  border: 1px solid #0066fd;
+  color:white;
+}
+.card-body{
+  height: 90px;
+  justify-content: center;
+  padding: 1px;
+  margin-left: 15px;
+  margin-top: 6px;
+}
+.Business_months{
+  font-size: smaller;
+  margin: 0
+}

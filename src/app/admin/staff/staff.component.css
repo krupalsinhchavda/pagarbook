@@ -1,0 +1,34 @@
+.Staff_title{
+  font-weight: 500;
+}
+.staff_summary{
+  background-color: #efefef;
+}
+.Continue{
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #0066fd;
+  border: 1px solid #0066fd;
+  color:white;
+}
+.items{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.icons_align{
+  margin-right: 10px;
+}
+.icon_align{
+  margin-left: 10px;
+}
+.account_link{
+  margin-left:300px;
+}
+.Warning_icon{
+  margin-right: 10px;
+}
+.Warning_border{
+  border: 1px solid orange;
+}

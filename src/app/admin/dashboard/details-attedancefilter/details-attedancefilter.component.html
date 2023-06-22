@@ -1,0 +1,15 @@
+<mat-accordion>
+    <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+
+            <mat-panel-description>
+                Filter Departments {{panelOpenState ? 'open' : 'closed'}}
+            </mat-panel-description>
+        </mat-expansion-panel-header>
+        <section class="example-section" [formGroup]="toppings">
+            <p><mat-checkbox formControlName="NoDepartment">No Department</mat-checkbox></p>
+            <p><mat-checkbox formControlName="Frontend">Frontend</mat-checkbox></p>
+          </section>
+          
+    </mat-expansion-panel>
+</mat-accordion>

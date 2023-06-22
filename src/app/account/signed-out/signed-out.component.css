@@ -1,0 +1,49 @@
+.sign_in_nav{
+  height:100px;
+  background-color: #efefef;
+}
+.nav_title{
+margin-top: 30px;
+margin-left: 50px;
+}
+.body_text{
+  font-weight: 700;
+  font-size: 32px;
+}
+.sign_in_footer{
+  height:250px;
+  background-color: #efefef;
+}
+.body_text_form{
+  color: #858585;
+}
+.footer_title{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+.d-justify-between{
+  display: flex;
+  justify-content: space-between;
+}
+.stats{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    left: 6%;
+    margin-top: 75px;
+}
+.stats_texts{
+  margin-left: 10px!important;
+}
+.call_us{
+  margin-left: 40px;
+}
+.Continue{
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #0066fd;
+  border: 1px solid #0066fd;
+  color:white;
+}
